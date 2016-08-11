@@ -30,9 +30,8 @@ angular.module('starter')
       });
     });
 
-    //Mark users
-    /*fn:Map - does something similar to a foreach, but capable of mapping object properties to another from an array*/
-    var userMarkers = users.map(function(user) {
+    //Draw user markers
+    users.forEach(function(user) {
       return new google.maps.Marker({
         position: new google.maps.LatLng(user.lat, user.lng),
         map: map
