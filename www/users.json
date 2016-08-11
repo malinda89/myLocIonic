@@ -1,6 +1,6 @@
 {
   "users" : [
-	{"name":"Malinda Wellalage", "city":"Kalalgoda","lat":"6.9811828","lng":"79.9297308999999"},
+	{"name":"Malinda Wellalage", "city":"Kalalgoda","lat":"6.8656744","lng":"79.9556929"},
 	{"name":"Harshana Gurusinghe", "city":"Morethota","lat":"6.9316936","lng":"81.0136407"},
 	{"name":"Kaumalee Bogahawatta", "city":"Malabe","lat":"6.915278","lng":"79.962023"},
 	{"name":"Gihan Madusanka", "city":"Kalalgoda","lat":"6.9811828","lng":"79.9297308999999"},
@@ -8,6 +8,6 @@
 	{"name":"Pubudu De Silva", "city":"Jaela","lat":"7.0793526","lng":"79.8946022"},
 	{"name":"Pasindu Jaalath", "city":"Borelasgamuwa","lat":"6.826609","lng":"79.912277"},
 	{"name":"Induman Muthugala", "city":"Rajagiriya","lat":"6.9100386","lng":"79.901532"},
-	{"name":"Chalaka Ellawala", "city":"Kalalgoda","lat":"6.9811828","lng":"79.9297308999999"}
+	{"name":"Chalaka Ellawala", "city":"Kalalgoda","lat":"6.0559917","lng":"80.1769773"}
   ]
 }
