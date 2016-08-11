@@ -3,7 +3,7 @@ angular.module('starter')
 .controller('MapViewCtrl', function($scope, MapService, UserInfoService) {
 	
   var currentPosSuccess = function(position) {
-    UserInfoService.get().then(function(users) {debugger;
+    UserInfoService.get().then(function(users) {
       $scope.map = MapService.draw(position, users);
     });
   };
