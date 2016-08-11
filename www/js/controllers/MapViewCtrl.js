@@ -1,9 +1,11 @@
 angular.module('starter')
 
-.controller('MapViewCtrl', function($scope, MapService) {
+.controller('MapViewCtrl', function($scope, MapService, UserInfoService) {
 	
   var currentPosSuccess = function(position) {
-    $scope.map = MapService.drawCurrentPos(position);
+    UserInfoService.get().then(function(users) {debugger;
+      $scope.map = MapService.draw(position, users);
+    });
   };
 
   var currentPosError = function(error) {
